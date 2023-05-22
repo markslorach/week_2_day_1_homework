@@ -1,4 +1,5 @@
 class Team:
+    points = 0
     def __init__(self, name, players, coach):
         self.name = name
         self.players = players
@@ -10,3 +11,6 @@ class Team:
     def has_player(self, player):
         return player in self.players
     
+   # extensions
+   
+
