@@ -12,5 +12,10 @@ class Team:
         return player in self.players
     
    # extensions
-   
+    def play_game(self, win):
+        if win:
+            self.points += 3
+        else:
+            self.points = 0
+
 
