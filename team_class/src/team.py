@@ -10,4 +10,3 @@ class Team:
     def has_player(self, player):
         return player in self.players
     
-    
