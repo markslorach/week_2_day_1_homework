@@ -6,5 +6,8 @@ class Team:
 
     def add_player(self, new_player):
         self.players.append(new_player)
-        
+
+    def has_player(self, player):
+        return player in self.players
+    
     
